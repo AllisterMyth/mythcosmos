@@ -1,38 +1,40 @@
 export default function App() {
   const projects = [
-  {
-    title: 'Multimodal Cancer Prediction System',
-    description: 'A multimodal ML system using CT scans, diagnoses and liquid biopsy data to predict cancer risk over the next few years.',
-    tags: ['Machine Learning', 'Healthcare', 'Biomathematics'],
-    link: 'https://github.com/AllisterMyth/Multimodal-Cancer-Prediction',
-  },
+    {
+      title: 'Multimodal Cancer Prediction System',
+      description:
+        'A multimodal ML system using CT scans, diagnoses and liquid biopsy data to predict cancer risk over the next few years.',
+      tags: ['Machine Learning', 'Healthcare', 'Biomathematics'],
+      link: 'https://github.com/AllisterMyth/Multimodal-Cancer-Prediction',
+    },
 
-  {
-    title: 'Automation of Lab using n8n with Agentic AI',
-    description:
-      'AI-driven automation workflows integrating intelligent agents with lab productivity systems.',
-    tags: ['Automation', 'Agentic AI', 'n8n'],
-  },
+    {
+      title: 'Automation of Lab using n8n with Agentic AI',
+      description:
+        'AI-driven automation workflows integrating intelligent agents with lab productivity systems.',
+      tags: ['Automation', 'Agentic AI', 'n8n'],
+    },
 
-  {
-    title: 'Equalizer in Scilab using FFT',
-    description:
-      'An equalizer built using FFT and reverse FFT signal processing techniques in Scilab.',
-    tags: ['Signal Processing', 'FFT', 'Scilab'],
-  },
+    {
+      title: 'Equalizer in Scilab using FFT',
+      description:
+        'An equalizer built using FFT and reverse FFT signal processing techniques in Scilab.',
+      tags: ['Signal Processing', 'FFT', 'Scilab'],
+    },
 
-  {
-    title: 'Fine Tuning AI Models for Writing & Mathematical Proofs',
-    description:
-      'Experiments in adapting AI systems for mathematical reasoning, proof generation and technical writing.',
-    tags: ['AI Models', 'Mathematics', 'Neural Networks'],
-  },
-]
+    {
+      title: 'Fine Tuning AI Models for Writing & Mathematical Proofs',
+      description:
+        'Experiments in adapting AI systems for mathematical reasoning, proof generation and technical writing.',
+      tags: ['AI Models', 'Mathematics', 'Neural Networks'],
+    },
+  ]
 
   return (
     <div className="app">
       <div className="bg-glow purple"></div>
       <div className="bg-glow blue"></div>
+      <div className="bg-glow pink"></div>
 
       <header className="navbar">
         <div className="logo">✦ MythCosmos</div>
@@ -48,7 +50,7 @@ export default function App() {
 
       <section className="hero">
         <p className="subtitle">
-          Mathematics Student · Machine Intelligence · Biomathematics
+          MATHEMATICS STUDENT · MACHINE INTELLIGENCE · BIOMATHEMATICS
         </p>
 
         <h1>
@@ -132,14 +134,15 @@ export default function App() {
                   <span key={tag}>{tag}</span>
                 ))}
               </div>
+
               {project.link && (
-                 <a
+                <a
                   href={project.link}
                   target="_blank"
                   rel="noreferrer"
                   className="project-link"
-                 >
-                   View Project →
+                >
+                  View Project →
                 </a>
               )}
             </div>
@@ -148,35 +151,51 @@ export default function App() {
       </section>
 
       <section className="blog-preview" id="blog">
-        <h2>Blog</h2>
+        <div className="feature-box">
+          <div>
+            <h2>Blog</h2>
 
-        <p>
-          Essays and thoughts on mathematics, AI,
-          biomathematics and life.
-        </p>
+            <p>
+              Essays and thoughts on mathematics, AI,
+              biomathematics and life.
+            </p>
 
-        <div style={{ marginTop: '2rem' }}>
-          <a
-            href="https://allistermyth.github.io/mythcosmos-blog/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button>Open Blog</button>
-          </a>
+            <div style={{ marginTop: '2rem' }}>
+              <a
+                href="https://allistermyth.github.io/mythcosmos-blog/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button>Open Blog</button>
+              </a>
+            </div>
+          </div>
+
+          <div className="feature-visual">
+            ✦
+          </div>
         </div>
       </section>
 
       <section className="contact" id="contact">
-        <h2>Let’s Build Something Interesting</h2>
+        <div className="feature-box">
+          <div>
+            <h2>Let’s Build Something Interesting</h2>
 
-        <p>
-          Interested in AI systems, mathematics or automation?
-        </p>
+            <p>
+              Interested in AI systems, mathematics or automation?
+            </p>
 
-        <div style={{ marginTop: '2rem' }}>
-          <a href="mailto:your@email.com">
-            <button>Contact Me</button>
-          </a>
+            <div style={{ marginTop: '2rem' }}>
+              <a href="mailto:your@email.com">
+                <button>Contact Me</button>
+              </a>
+            </div>
+          </div>
+
+          <div className="feature-visual">
+            ✦
+          </div>
         </div>
       </section>
 
