@@ -278,6 +278,9 @@ h2 {
 }
 
 .feature-box {
+  position: relative;
+  z-index: 1;
+  
   background:
     rgba(15, 23, 42, 0.78);
 
@@ -308,6 +311,8 @@ h2 {
     radial-gradient(circle at bottom right,
     rgba(124,58,237,0.18),
     transparent 35%);
+
+  pointer-events: none;
 }
 
 .feature-box p {
