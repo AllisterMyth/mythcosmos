@@ -70,7 +70,7 @@ export default function App() {
           </a>
 
           <a
-            href="https://allistermyth.github.io/mythcosmos-blog/"
+            href="https://mythcosmos-blog.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -162,7 +162,7 @@ export default function App() {
 
             <div style={{ marginTop: '2rem' }}>
               <a
-                href="https://allistermyth.github.io/mythcosmos-blog/"
+                href="https://mythcosmos-blog.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -187,7 +187,7 @@ export default function App() {
             </p>
 
             <div style={{ marginTop: '2rem' }}>
-              <a href="mailto:your@email.com">
+              <a href="mailto:allistermyth@gmail.com">
                 <button>Contact Me</button>
               </a>
             </div>
