@@ -1,6 +1,14 @@
 export default function App() {
   const projects = [
     {
+      title: 'Cross view Drone localization using Satellite Imagery',
+      description:
+        'A deep learning system for precision localiazation in GPS-denied environments using cross-view image matching between drone and satellite imagery.',
+      tags: ['Machine Learning'],
+      link: 'https://github.com/AllisterMyth/DroneImgLocation',
+    },
+    
+    {
       title: 'Multimodal Cancer Prediction System',
       description:
         'A multimodal ML system using CT scans, diagnoses and liquid biopsy data to predict cancer risk over the next few years.',
