@@ -4,7 +4,7 @@ export default function App() {
       title: 'Cross view Drone localization using Satellite Imagery',
       description:
         'A deep learning system for precision localiazation in GPS-denied environments using cross-view image matching between drone and satellite imagery.',
-      tags: ['Machine Learning'],
+      tags: ['Machine Learning', 'Computer Vision', 'Geospatial AI'],
       link: 'https://github.com/AllisterMyth/DroneImgLocation',
     },
     
